@@ -1,0 +1,136 @@
+@import url();
+
+
+html,body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+body{
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    position: relative;
+    box-shadow: 0,0,12% white;
+
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 2rem;
+    box-shadow:  0px 0px 20px 12px hsl(215deg 32% 27%);;   
+
+   
+}
+.image{
+   height: 0%;
+   width: 0%;
+}
+.image-eth{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17rem;
+    padding: 2rem;
+    margin: 8px;
+
+}
+.lower01-flex,.lower02-flex,.lower-flex{
+    display: flex;
+}
+
+.lower-flex{
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    margin-bottom:20px;
+}
+.lower01-flex, .lower02-flex{
+    gap: 5px;
+}
+.header{
+    color: hsl(0, 0%, 100%);
+    margin-left: 14px;
+  
+    font-size: 25px;
+
+}
+.paragraph{
+    margin-left: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.content-clock{
+    color: hsl(215, 51%, 70%);
+}
+.eth-content{
+    color: hsl(178, 100%, 50%);
+}
+
+
+.view:hover{
+opacity: 1;
+
+
+}
+
+.ruler{
+    background-color: hsl(215, 32%, 27%);
+    width: 21rem;
+}
+.lower-creater{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 17px;
+}
+.avatar-image{
+    width: 35px;
+}
+.avatar{
+    border-radius: 3rem;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+
+
+.info{
+    color: hsl(215, 51%, 70%);;
+}
+.info-name{
+    color: white;
+
+}
+
+.image-eth{
+    position: relative;
+}
+.view{
+    opacity: 0;
+position: absolute;
+top: 30%;
+    left: 46%;
+}
+
+@media(min-width:375px){
+
+    .container{
+       
+    padding: 5px;
+    margin: 0;
+    width: 22rem;
+    height: 35rem;
+    gap: 19rem;
+    }
+
+}
